@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Virtual Assitant</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="Virtual-assistant-removebg-preview.png" alt="Sample Image" />
+      </div>
+      <div class="luna_Intro">
+        <h1>i'm</h1>
+        <span class="luna">Luna,</span>
+        <h1>your</h1>
+        <span class="Assistant">Virtual Assistant</span>
+      </div>
+      <!-- <button class="btn" onclick="wishMe()">Wish me!</button> -->
+      <button class="btn">
+        <audio id="clickAudio" src="button-pressed-38129.mp3"></audio>
+        <img src="microphone-solid-24.png" alt="microphone" /><span
+          class="content"
+          >Click here to talk to me</span
+        >
+      </button>
+      <div class="mask">
+        <img id="audioTHEME" src="listening.gif" />
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
